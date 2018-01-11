@@ -1,14 +1,11 @@
 #include "linked.h"
-#include "node.h"
 #include "linked.cpp"
-#include "node.cpp"
 
 /* 
  * Start of main Function
  */
 
-template class Node<int>;
-template class LinkedList<int>;
+
 int main() {
 	LinkedList<int> *l = new LinkedList<int>();
 	Node<int> *n1 = new Node<int>(3);
