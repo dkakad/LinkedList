@@ -1,9 +1,13 @@
 /*
-* An implementation of a generic LinkedList class which constructs a doubly linked list
-* where each Node of the Linked List is the generic Node class defined in the headers.
-* This Linked List consists of 2 fields:
-* size -> The current size of the Linked List.
-* head -> The pointer to the head Node of this Linked List.
+* An implementation of a generic Node class which is used in doubly Linked List.
+* This node consists of :
+* data -> This field is in the form of a generic type T. Note that we should always
+*		   overload the required operators required for whatever operations that we
+*		   need.
+* prev -> A pointer to the previous node of 'this' in the data structure. This field
+*		   makes the data structure a doubly linked list.
+* next -> A pointer to the next node of 'this' in the data structure. This field is contained
+*		   in both Singly as well as Doubly Linked List.
 * @author Deepak Kakad
 */
 
